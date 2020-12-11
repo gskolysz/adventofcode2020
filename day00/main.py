@@ -13,17 +13,13 @@ def solve(lines: list[str]) -> tuple[int, int]:
     """
     Insert solution here
     """
-    ...
-
+    return part1, part2
 
 def main():
     solution = solve(load_input_lines())
     print("Part one:", solution[0])
-    try:
-        print("Part two:", solution[1])
-    except IndexError:
-        print("Part two not done yet :)")
-    
+    print("Part two:", solution[1])
+
 
 if __name__ == "__main__":
     main()
